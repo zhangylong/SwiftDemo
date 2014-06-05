@@ -94,12 +94,14 @@ class ViewController: UIViewController {
         
         var someInt = Int[]()
         
-        
+        // -------------------
         var airpot:Dictionary<String, String> = ["a":"A", "b":"B"]
         
         for (code, name) in airpot {
             println("\(code) : \(name)")
         }
+        
+        
         
         
         self.view.addSubview(label)
